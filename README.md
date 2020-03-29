@@ -1,5 +1,7 @@
 # soccer-data
 
+[![npm version](https://badge.fury.io/js/soccer-data.svg)](https://badge.fury.io/js/soccer-data)
+
 A tool to make fetching up to date soccer data easy. Most functions don't require an API key but some require it. Information is fetched from [TheSportsDB](https://www.thesportsdb.com/).
 
 ## How to use
