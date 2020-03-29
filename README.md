@@ -190,17 +190,17 @@ Returns last 5 events by team id.
 | ------ | ------ | -------- |
 | teamId | string | true     |
 
-#### lastFifteenEventsByLeague(_leagueId_)
+#### nextFifteenEventsByLeague(_leagueId_)
 
-Returns last 5 events by league id.
+Returns next 15 events by league id.
 
 | param    | type   | required |
 | -------- | ------ | -------- |
 | leagueId | string | true     |
 
-#### nextFifteenEventsByLeague(_leagueId_)
+#### lastFifteenEventsByLeague(_leagueId_)
 
-Returns next 15 events by league id.
+Returns last 15 events by league id.
 
 | param    | type   | required |
 | -------- | ------ | -------- |
