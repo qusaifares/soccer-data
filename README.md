@@ -10,6 +10,7 @@ A tool to make fetching up to date soccer data easy. Most functions don't requir
   - `const soccerData = require('soccer-data')`
 - or import functions you wish to use using ES6 syntax
   - `const { setAPIKey, teamDetails } = require('soccer-data')`
+- All functions except **setApiKey** will return promises, make sure to use async functions and ensure they resolve.
 
 ## Methods
 
