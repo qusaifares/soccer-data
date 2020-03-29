@@ -198,7 +198,7 @@ Returns last 5 events by league id.
 | -------- | ------ | -------- |
 | leagueId | string | true     |
 
-#### nextFifteenEventsByLeague(_teamId_)
+#### nextFifteenEventsByLeague(_leagueId_)
 
 Returns next 15 events by league id.
 
