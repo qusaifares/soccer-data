@@ -1,13 +1,21 @@
 {
   "name": "soccer-data",
-  "version": "1.0.3",
-  "description": "",
+  "version": "1.0.5",
+  "description": "npm module to fetch up to date soccer data.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/qusaifares/soccer-data.git"
+  },
   "author": "Qusai Fares <qusaifares@gmail.com> (https://qusaifares.com/)",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qusaifares/soccer-data/issues"
+  },
+  "homepage": "https://github.com/qusaifares/soccer-data#readme",
   "dependencies": {
     "node-fetch": "^2.6.0"
   }
