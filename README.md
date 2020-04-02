@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/soccer-data.svg)](https://badge.fury.io/js/soccer-data)
 
-A tool to make fetching up to date soccer data easy. Most functions don't require an API key but some require it. Information is fetched from [TheSportsDB](https://www.thesportsdb.com/).
+A library to make fetching up to date soccer data easy. Most functions don't require an API key but some require it. Information is fetched from [TheSportsDB](https://www.thesportsdb.com/).
 
 ## How to use
 
@@ -12,7 +12,7 @@ A tool to make fetching up to date soccer data easy. Most functions don't requir
   - `const soccerData = require('soccer-data')`
 - or import functions you wish to use using ES6 syntax
   - `const { setAPIKey, teamDetails } = require('soccer-data')`
-- All functions except **setApiKey** will return promises, make sure to use async functions and ensure they resolve.
+- All functions except **setApiKey** will return promises, make sure to use asynchronous functions and ensure they resolve.
 
 ## Methods
 
